@@ -237,3 +237,37 @@
   border-width: 2px;
 }
 
+#name-ask {
+  position: absolute;
+  top: 138px;
+  left: 52px;
+}
+
+#name-ask-input {
+  border: solid;
+  position: absolute;
+  top: 136px;
+  left: 117px;
+  background-color: transparent;
+  border-width: 1px;
+  width: auto;
+}
+
+#message-ask {
+  position: absolute;
+  top: 194px;
+  left: 7px;
+  font-size: 22px;
+}
+
+#message-ask-input {
+  border: solid;
+  position: absolute;
+  top: 192px;
+  left: 117px;
+  background-color: transparent;
+  border-width: 1px;
+  width: 500px;
+  height: 300px;
+}
+
