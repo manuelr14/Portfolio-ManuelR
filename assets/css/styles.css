@@ -1,0 +1,239 @@
+.navbar.navbar-dark.navbar-expand-md.bg-dark {
+  background-color: black;
+  opacity: 0.8;
+}
+
+.text-left.text-dark {
+  padding-top: 50px;
+}
+
+.center-picture {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 50px;
+}
+
+.rounded-circle.profile-picture {
+  margin-top: -450px;
+  margin-left: 60px;
+}
+
+@media (min-width: 300px) {
+  .rounded-circle.profile-picture {
+    margin-top: -144px;
+    margin-left: 24px;
+    width: 100px;
+  }
+}
+
+@media (min-width: 576px) {
+  .rounded-circle.profile-picture {
+    margin-top: -212px;
+    margin-left: 27px;
+    width: 175px;
+  }
+}
+
+@media (min-width: 768px) {
+  .rounded-circle.profile-picture {
+    margin-top: -278px;
+    margin-left: 32px;
+    width: 230px;
+  }
+}
+
+@media (min-width: 992px) {
+  .rounded-circle.profile-picture {
+    margin-top: -343px;
+    margin-left: 39px;
+    width: 312px;
+  }
+}
+
+#main-background {
+  padding: 0px;
+}
+
+#main-background {
+}
+
+.introduction {
+  position: relative;
+}
+
+#name {
+  position: absolute;
+  top: 100px;
+  font-size: 41px;
+}
+
+@media (min-width: 300px) {
+  #name {
+    position: absolute;
+    top: 23px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 576px) {
+  #name {
+    position: absolute;
+    top: 44px;
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 768px) {
+  #name {
+    font-size: 25px;
+    position: absolute;
+    top: 62px;
+  }
+}
+
+@media (min-width: 992px) {
+  #name {
+    position: absolute;
+    top: 60px;
+    font-size: 33px;
+  }
+}
+
+#welcome {
+  position: absolute;
+  bottom: 106px;
+  right: 444px;
+  color: white;
+  font-size: 45px;
+}
+
+@media (min-width: 300px) {
+  #welcome {
+    position: absolute;
+    bottom: 58px;
+    right: 111px;
+    color: white;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 576px) {
+  #welcome {
+    position: absolute;
+    bottom: 84px;
+    right: 207px;
+    color: white;
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 768px) {
+  #welcome {
+    position: absolute;
+    bottom: 106px;
+    right: 252px;
+    color: white;
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 992px) {
+  #welcome {
+    position: absolute;
+    bottom: 106px;
+    right: 328px;
+    color: white;
+    font-size: 35px;
+  }
+}
+
+.github-profile {
+  height: 300px;
+  width: 120px;
+  padding: 40px;
+  text-align: center;
+  margin: 0 0 10px 10px;
+  background-color: rgb(37,41,47);
+  border: solid;
+  border-radius: 25px;
+}
+
+@media (min-width: 300px) {
+  .github-profile {
+    height: 142px;
+    padding: 40px;
+    text-align: center;
+    margin: 0 0 10px 10px;
+    background-color: rgb(37,41,47);
+    border: solid;
+    border-radius: 25px;
+  }
+}
+
+.resume-profile {
+  height: 300px;
+  padding: 40px;
+  text-align: center;
+  margin: 0 0 10px 10px;
+  background-color: rgb(70,101,221);
+  border: solid;
+  border-radius: 25px;
+}
+
+.linkedin-profile {
+  height: 300px;
+  padding: 40px;
+  text-align: center;
+  margin: 0 0 10px 10px;
+  border: solid;
+  border-radius: 25px;
+}
+
+.light-color {
+  color: white;
+}
+
+.dark-color {
+  color: black;
+}
+
+.projects {
+  text-align: center;
+}
+
+.col.order-md-12.projects {
+  background-color: white;
+}
+
+.link-space {
+  margin-right: 20px;
+}
+
+.project-image {
+  padding-top: 20px;
+}
+
+.row.project-margin {
+  padding: 10px;
+}
+
+.project-tittle {
+  font-size: 26px;
+}
+
+.tittle {
+  font-size: 34px;
+}
+
+@media (min-width: 300px) {
+  .tittle {
+    font-size: 15px;
+  }
+}
+
+.border {
+  border: solid;
+  border-width: 2px;
+}
+
