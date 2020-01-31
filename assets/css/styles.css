@@ -239,18 +239,82 @@
 
 #name-ask {
   position: absolute;
-  top: 138px;
-  left: 52px;
+  top: 137px;
+  left: 51px;
+  font-size: 25px;
+}
+
+@media (min-width: 300px) {
+  #name-ask {
+    position: absolute;
+    top: 46px;
+    left: 26px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 576px) {
+  #name-ask {
+    position: absolute;
+    top: 88px;
+    left: 33px;
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 768px) {
+  #name-ask {
+    position: absolute;
+    top: 137px;
+    left: 27px;
+    font-size: 22px;
+  }
 }
 
 #name-ask-input {
   border: solid;
   position: absolute;
   top: 136px;
-  left: 117px;
+  left: 116px;
   background-color: transparent;
   border-width: 1px;
   width: auto;
+}
+
+@media (min-width: 300px) {
+  #name-ask-input {
+    border: solid;
+    position: absolute;
+    top: 40px;
+    left: 67px;
+    background-color: transparent;
+    border-width: 1px;
+    width: auto;
+  }
+}
+
+@media (min-width: 576px) {
+  #name-ask-input {
+    border: solid;
+    position: absolute;
+    top: 83px;
+    left: 90px;
+    background-color: transparent;
+    border-width: 1px;
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  #name-ask-input {
+    border: solid;
+    position: absolute;
+    top: 136px;
+    left: 116px;
+    background-color: transparent;
+    border-width: 1px;
+    width: auto;
+  }
 }
 
 #message-ask {
@@ -258,6 +322,33 @@
   top: 194px;
   left: 7px;
   font-size: 22px;
+}
+
+@media (min-width: 300px) {
+  #message-ask {
+    position: absolute;
+    top: 78px;
+    left: 3px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 576px) {
+  #message-ask {
+    position: absolute;
+    top: 124px;
+    left: 4px;
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 768px) {
+  #message-ask {
+    position: absolute;
+    top: 194px;
+    left: 7px;
+    font-size: 22px;
+  }
 }
 
 #message-ask-input {
@@ -269,5 +360,44 @@
   border-width: 1px;
   width: 500px;
   height: 300px;
+}
+
+@media (min-width: 300px) {
+  #message-ask-input {
+    border: solid;
+    position: absolute;
+    top: 75px;
+    left: 68px;
+    background-color: transparent;
+    border-width: 1px;
+    width: 220px;
+    height: 120px;
+  }
+}
+
+@media (min-width: 576px) {
+  #message-ask-input {
+    border: solid;
+    position: absolute;
+    top: 126px;
+    left: 91px;
+    background-color: transparent;
+    border-width: 1px;
+    width: 400px;
+    height: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  #message-ask-input {
+    border: solid;
+    position: absolute;
+    top: 192px;
+    left: 117px;
+    background-color: transparent;
+    border-width: 1px;
+    width: 500px;
+    height: 300px;
+  }
 }
 
